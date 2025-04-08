@@ -1,10 +1,7 @@
 import streamlit as st
 
-st.markdown("Latince harflerle yazılmış Türkçe metni Osmanlıca Arap harflerine dönüştürür.")
-
 with st.sidebar:
     st.header("Hazırlayan: Bartu Özkanay")
-
 
 latince_arapca = {
     "a": "ا", "b": "ب", "c": "ج", "ç": "چ", "d": "د", "e": "e", "f": "ف",
@@ -22,6 +19,7 @@ def latince_osmanlica(text):
 
 st.title("Latince - Osmanlıca Çevirici")
 
+st.markdown("Latince harflerle yazılmış Türkçe metni Osmanlıca Arap harflerine dönüştürür.")
 
 girdi = st.text_input("Latince metni giriniz:")
 
