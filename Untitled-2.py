@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image(https://upload.wikimedia.org/wikipedia/commons/4/4d/Flag_of_Ottoman_Empire_%281517-1793%29.png)
+st.image("https://upload.wikimedia.org/wikipedia/commons/4/4d/Flag_of_Ottoman_Empire_%281517-1793%29.png")
 st.markdown("Latince harflerle yazılmış Türkçe metni Osmanlıca Arap harflerine dönüştürür.")
 
 with st.sidebar:
