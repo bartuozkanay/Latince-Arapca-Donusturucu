@@ -27,5 +27,4 @@ if girdi:
     yeni = latince_osmanlica(girdi)
     st.subheader("Osmanlıca Çeviri:")
     st.write(yeni)
-else:
-    st.write("Lütfen çevirmek istediğiniz Latince metni giriniz.")  # Prompt for input
+
