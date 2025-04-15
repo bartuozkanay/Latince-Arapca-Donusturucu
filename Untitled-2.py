@@ -1,6 +1,18 @@
 import streamlit as st
 
-st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbAWnnf0epJMRJJPOT4B0mQ5rcuizGJgWagg&s")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbAWnnf0epJMRJJPOT4B0mQ5rcuizGJgWagg&s");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 with st.sidebar:
     st.header("Hazırlayan: Bartu Özkanay")
