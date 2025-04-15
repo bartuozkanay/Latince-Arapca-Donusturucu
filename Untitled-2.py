@@ -4,7 +4,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbAWnnf0epJMRJJPOT4B0mQ5rcuizGJgWagg&s");
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4d/Flag_of_Ottoman_Empire_%281517-1793%29.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
