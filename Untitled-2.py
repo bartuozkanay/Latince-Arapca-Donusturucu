@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.image(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbAWnnf0epJMRJJPOT4B0mQ5rcuizGJgWagg&s)
+
 with st.sidebar:
     st.header("Hazırlayan: Bartu Özkanay")
 
