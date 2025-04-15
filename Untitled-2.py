@@ -14,6 +14,20 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown(
+    """
+    <style>
+    .main > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 1.5em;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 with st.sidebar:
     st.header("Hazırlayan: Bartu Özkanay")
 
